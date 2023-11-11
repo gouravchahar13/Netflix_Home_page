@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    background: url(images/back.jpg) no-repeat center center rgba(0,0,0, 0.7);
+}
+body{
+    background: rgba(27, 24, 24, 0.3);
+    height:100vh;
+}
+.head{
+    height:30vh;
+    box-sizing: border-box;
+}
+img{
+    height:15vh;
+    position: absolute;
+    top:0;
+    left:15%
+}
+.grp{
+    position: absolute;
+    top: 5%;
+    left:70%;
+    width:20%;
+    height: 10%;
+}
+select{
+    width:50%;
+    flex-direction: row;
+    background-color: rgb(48, 40, 40);
+    color: aliceblue;
+    height:50%;
+    margin-right: 10%;
+}
+option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 1rem;
+    background-color: red;
+    color: aliceblue;
+}
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+input{
+    color: rgb(214, 25, 25);
+    height:9vh;
+    width:20vw;
+    border-radius: 10px;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.cont-btn{
+    height:9vh;
+    width:15vw;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: bold;
+    font-size: 1.5rem;
+}
